@@ -8,7 +8,11 @@ h1 {
     font-size: 50px;
 }
 
-#host {
+h2 {
+    font-size: 40px;
+}
+
+.host {
     color: orange;
 }
 
@@ -64,4 +68,24 @@ h1 {
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
+}
+
+.shadow {
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding-left: 2%;
+    border-radius: 5%;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.left {
+    padding-right: 30px;
 }
