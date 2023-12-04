@@ -77,15 +77,31 @@ h2 {
     width: 40%;
     padding-left: 2%;
     border-radius: 5%;
+}
 
+.color {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.color2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, rgb(71, 255, 234));
+    border-image-slice: 1;
 }
 
 .experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+
 }
 
 .left {
     padding-right: 30px;
+}
+
+footer p {
+    text-align: center;
 }
